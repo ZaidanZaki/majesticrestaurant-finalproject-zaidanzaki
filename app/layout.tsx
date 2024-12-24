@@ -19,11 +19,11 @@ const display = Fjalla_One({
 });
 
 export const metadata: Metadata = {
-  title: "ProLine Content Corps - Agency website template by Cosmic",
-  description: "A Cosmic template built with Blocks.",
+  title: "Majestic Restaurant - Final Project",
+  description: "Luxurious restaurant that u can afford.",
   openGraph: {
-    title: "ProLine Content Corps - Agency website template by Cosmic",
-    description: "A Cosmic template built with Blocks.",
+    title: "Majestic Restaurant - Final Project",
+    description: "Luxurious restaurant that u can afford.",
     images:
       "https://imgix.cosmicjs.com/69313380-b156-11ee-9844-f9a09795e2a3-desktop.png?auto=format,compression",
   },
