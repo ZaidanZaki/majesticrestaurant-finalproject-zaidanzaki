@@ -1,92 +1,37 @@
-# Agency Template, powered by Blocks
+# Dokumentasi Tugas 2: Membuat Website Restoran dengan ReactJS
+### Nama Kelompok: \<Majestic Restaurant\>
+### Anggota Kelompok
+### 1. L200224051 Muhammad Zaidan Zaki
 
-![desktop.png](https://imgix.cosmicjs.com/69313380-b156-11ee-9844-f9a09795e2a3-desktop.png)
 
-A website template built using Cosmic's React components, [Blocks](https://blocks.cosmicjs.com). Use this template to get familiar with Blocks and how they can be used to build common content-powered features for your websites and apps, or simply use it as a starting point for your next project. Save development time and learn content modeling best practices.
+#### Alamat Website yang dibuat
+<https://vercel.com/zaidan-zakis-projects/majesticrestaurant-finalproject-zaidanzaki/84zRhtkqE7tsTuSWNNCZSP4z5BAN\>
+<https://vercel.com/zaidan-zakis-projects/majesticrestaurant-finalproject-zaidanzaki/84zRhtkqE7tsTuSWNNCZSP4z5BAN>
 
-## Links
 
-[Install this template](https://www.cosmicjs.com/marketplace/templates/agency)
+Silahkan anda tuliskan dokumentasi tugas anda di sini!
 
-[View the live demo](https://cosmic-agency-template.vercel.app/)
+Website Majestic Eatery & Coffee adalah sebuah platform modern yang saya buat menggunakan Next.js sebagai framework pengembangan, Cosmic sebagai headless CMS untuk pengelolaan konten, dan dideploy di Vercel untuk memastikan performa yang cepat dan stabil. Website ini dirancang dengan berbagai fitur canggih yang dirancang untuk memberikan pengalaman terbaik kepada pengguna, termasuk:
 
-## Features
+Desain Responsif
+Website ini dirancang dengan teknologi responsive design, sehingga dapat dibuka di berbagai ukuran perangkat—baik desktop, tablet, maupun smartphone—tanpa kehilangan stabilitas tampilan. Semua elemen website, mulai dari navigasi hingga konten, tetap terlihat rapi dan fungsional dalam kondisi apa pun.
 
-✨ NEW: 👤 User management powered by the User Management Block
+Mode Terang dan Gelap (Dark Mode & Light Mode)
+Salah satu fitur unggulan adalah opsi dark mode dan light mode, yang memungkinkan pengguna untuk mengubah tema sesuai dengan preferensi mereka. Fitur ini tidak hanya meningkatkan kenyamanan visual, tetapi juga memberikan pengalaman personalisasi yang lebih baik.
 
-✨ NEW: ✉️ Contact form powered by the Contact Form Block
+Login dan Register dengan Sinkronisasi Cosmic
+Website dilengkapi dengan fitur login dan register yang terhubung langsung dengan Cosmic di sisi admin. Data pengguna yang mendaftar akan otomatis tersimpan dan tersinkronisasi, memudahkan pengelolaan data serta memberikan pengalaman yang aman dan efisien bagi pengguna.
 
-🛒 Product management and checkout using Stripe
+Selain fitur teknis di atas, website ini juga memiliki berbagai halaman dan fungsi yang relevan, seperti:
 
-⚡️ Performance optimized
+Fitur Utama Website
+Beranda: Memperkenalkan restoran sebagai tempat yang menggabungkan makanan lezat, kopi berkualitas tinggi, dan suasana yang nyaman.
+Tentang Kami: Menjelaskan filosofi restoran, termasuk penggunaan bahan lokal segar dan komitmen terhadap keberlanjutan.
+Menu: Menampilkan pilihan hidangan yang menggoda dan kopi artisan, dirancang untuk memuaskan semua selera.
+Moments: Berisi testimoni dari pendiri, co-founder, head chef, hingga pelanggan, yang memberikan gambaran autentik tentang pengalaman mereka di restoran.
+Acara: Informasi tentang kegiatan seperti live music nights, cooking classes, dan morning workshops yang menjadi daya tarik utama restoran ini.
+Blog: Menyediakan artikel menarik seputar kuliner dan budaya kopi.
+Kontak dan FAQ: Memudahkan pengguna untuk menghubungi restoran, melakukan reservasi, atau mendapatkan informasi lebih lanjut.
+Website ini tidak hanya menawarkan informasi lengkap tentang Majestic Eatery & Coffee, tetapi juga memberikan pengalaman digital yang modern, intuitif, dan mudah diakses. Dengan fitur-fitur inovatif seperti desain responsif dan tema yang dapat disesuaikan, website ini mencerminkan komitmen restoran untuk memberikan kualitas terbaik—baik di dunia nyata maupun dunia digital.
 
-👁 Draft preview ready
-
-📱 Mobile responsive
-
-🌎 Localization ready
-
-🌓 Dark mode ready
-
-🔧 Customizable
-
-♿️ Accessible
-
-🦺 Type safe
-
-![blocks.png](https://imgix.cosmicjs.com/271670f0-b156-11ee-9844-f9a09795e2a3-blocks.png)
-![blocks.png](https://imgix.cosmicjs.com/0bf19f40-b16d-11ee-9844-f9a09795e2a3-blocks.png)
-
-## Getting started
-
-1. [Install this template in Cosmic](https://www.cosmicjs.com/marketplace/templates/agency).
-
-2. Download this code repository and install the dependencies.
-
-```bash
-git clone https://github.com/cosmicjs/agency-template
-cd agency-template
-bun install
-```
-
-3. Create a `.env.local` file with your Cosmic API keys. Find these after logging in to the Cosmic dashboard in [Project > API keys](https://app.cosmicjs.com/?redirect_to=?highlight=api-keys).
-
-```
-cp .env.example .env.local
-```
-
-It will look like this. To use the User Management and Contact Form features you will need to have a [Resend](https://resend.com/) account and add your API key.
-
-```
-# .env.local
-COSMIC_BUCKET_SLUG=change_to_your_bucket_slug
-COSMIC_READ_KEY=change_to_your_bucket_read_key
-COSMIC_WRITE_KEY=change_to_your_bucket_write_key
-
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=change_to_your_stripe_public_key
-STRIPE_SECRET_KEY=change_to_your_stripe_secret_key
-
-RESEND_API_KEY=change_to_your_resend_api_key
-NEXT_PUBLIC_APP_URL=change_to_your_app_url
-NEXT_PUBLIC_APP_NAME="Change to your app name"
-SUPPORT_EMAIL=change_to_your_support_email
-CONTACT_EMAIL=change_to_your_contact_email
-```
-
-4. Run the template.
-
-```
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000).
-
-## Deploy to Vercel
-
-Use the following button to deploy to Vercel. You will be asked to add API accesss keys as environment variables.
-
-<a href="https://vercel.com/import/git?c=1&s=https://github.com/cosmicjs/agency-template&env=COSMIC_BUCKET_SLUG,COSMIC_READ_KEY,COSMIC_WRITE_KEY" rel="noopener noreferrer" target="_blank"><img src="https://cdn.cosmicjs.com/d3f0d5e0-c064-11ea-9a05-6f8a16b0b14c-deploy-to-vercel.svg" style="width: 100px;" class="fr-fic fr-dib fr-fil"></a>
-
-## License
-
-Licensed under the [MIT license](https://github.com/cosmicjs/agency-template/blob/main/LICENSE).
+Mohon maaf yang sebesar besarnya pak gunawan. dikarenakan tidak dapat anggota kelompok saya memutuskan untuk mengerjakan sendiri dan belum sempat mendokumentasikannya secara maksimal dan beberapa kali error pada saat push ke git
